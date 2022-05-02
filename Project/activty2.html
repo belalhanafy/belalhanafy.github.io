@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>travel.com</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/activty2.css">
+    <script></script>
+</head>
+
+<body>
+    <section class="header">
+        <nav id="navbar">
+            <a href="index.html" class="logo" target="_blank"><i class="fas fa-paper-plane"></i>travel</a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html" target="_blank"><i class="fa-solid fa-house"></i>Home</a></li>
+                    <li><a href=""><i class="fa-solid fa-bed"></i>Stays</a></li>
+                    <li><a href=""><i class="fa-solid fa-plane"></i>Flights</a></li>
+                    <li><a href=""><i class="fa-solid fa-car"></i>Car rentals</a></li>
+                    <li><a href=""><i class="fa-solid fa-utensils"></i>Food</a></li>
+                    <li><a href=""><i class="fa-solid fa-person-swimming"></i>activities</a></li>
+                    <li><a href="index - about.html" target="_blank"><i class="fa-solid fa-people-group"></i>About</a></li>
+                </ul>
+            </div>
+        </nav>
+        <span class="up">UP</span>
+    </section>
+    <section id="safari_countenar">
+        <div class="safari_div">
+            <form method="get">
+
+                <p>Enter the date :</p>
+                <input type="date" name="time" class="time" id="time">
+
+                <p>How many teckts you want</p>
+                <input type="number" name="tecket" class="tecket" id="tecket" min="1" max="10" placeholder="1">
+
+                <p>what actvty you want</p>
+                <select id="actvty" name="activty_type">
+                    <option value="Safari">safari</option>
+                    <option value="Diving">diving</option>
+                    <option value="Concert">concert</option>
+                  </select>
+                <br>
+                <input type="reset">
+                <button onclick="fun()" type="submit">submit</button>
+
+            </form>
+
+            <h2 id="demo"></h2>
+            <!-- <button onclick="nnn()"> dsdsd</button> -->
+        </div>
+    </section>
+
+    <script src="./java script/activty.js"></script>
+</body>
+
+</html>
