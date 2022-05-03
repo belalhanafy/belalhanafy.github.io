@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Cairo', sans-serif;
+}
+
+nav {
+    display: flex;
+    padding: 3px 3%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6093b782;
+}
+
+nav a {
+    color: white;
+}
+
+.logo {
+    font-size: 2.4rem;
+    /* color: white; */
+    font-weight: bold;
+}
+
+i {
+    color: #00b0ff;
+    padding: 0.5rem;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul {
+    list-style: none;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li {
+    display: inline-block;
+    margin: 0px 15px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+.text-box {
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 25px;
+}
+
+span {
+    color: #00b0ff;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 26px;
+    font-size: 18px;
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 50px;
+}
+
+.btn:hover {
+    background-color: #00b0ff;
+    color: black;
+}
+
+.up {
+    position: fixed;
+    bottom: 12px;
+    right: -35px;
+    background-color: #00b0ff;
+    color: rgb(48, 28, 28);
+    font-weight: bold;
+    font-size: 15px;
+    padding: 3px 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.up.show {
+    right: 17px;
+}
+
+input#show {
+    display: none;
+}
+
+body {
+    background-image: url(../images/marrakech-desert-tours.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 150%;
+}
+
+.safari_div {
+    border: 1px solid #555;
+    width: 40%;
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 28%;
+    margin-top: 7%;
+    background-color: #6093b782;
+}
+
+.safari_div h3 {
+    font-size: 40px;
+}
+
+.safari_div p {
+    font-size: 20px;
+    margin-left: 1%;
+}
+
+.safari_div input[type],
+select {
+    border-radius: 5px;
+    border-color: rgb(214, 214, 214);
+    margin: 20px;
+    width: 90%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.safari_div button {
+    width: 14%;
+    color: #ffffff;
+    background-color: #00b0ff;
+    border-radius: 4px;
+    font-size: 19px;
+}
+
+.safari_div input[type=reset] {
+    width: 14%;
+    color: #ffffff;
+    background-color: #00b0ff;
+    border-radius: 4px;
+    border-color: black;
+}
+
+input[type=radio] {
+    align-items: left;
+}
+.btn-nav{
+    background-color: white;
+    height: 28px;
+    width: 60px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .btn-nav span{
+    display: block;
+    background-color: #999;
+    height: 26PX;
+    width: 26PX;
+    border-radius: 50%;
+    margin-left: 2px;
+    transition: 0.5s;
+  }
+  .active{
+    background: green;
+  }
+  .active span{
+    background-color: white;
+    margin-left: 31px;
+    margin-bottom: 1px;
+    
+  }
+  .on{
+    background-color: red;
+  }

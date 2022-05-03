@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Car Rentals</title>
+    <link rel="stylesheet" href="./css/CarRentals3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+        <nav id="navbar">
+           <a href="index.html" class="logo" target="_blank"><i class="fas fa-paper-plane"></i>travel</a>
+           <div class="nav-links">
+              <ul>
+                 <li><a href="index.html" target="_blank"><i class="fa-solid fa-house"></i>Home</a></li>
+                 <li><a href="./hotels-list.html"><i class="fa-solid fa-bed"></i>Stays</a></li>
+                 <li><a href="./flight1.html"><i class="fa-solid fa-plane"></i>Flights</a></li>
+                 <li><a href="./CarRentals1.html"><i class="fa-solid fa-car"></i>Car rentals</a></li>
+                 <li><a href="./Restaurant1.html"><i class="fa-solid fa-utensils"></i>Food</a></li>
+                 <li><a href="./activty1.html"><i class="fa-solid fa-person-swimming"></i>activities</a></li>
+                 <li><a href="index - about.html"target="_blank"><i class="fa-solid fa-people-group"></i>About</a></li>
+                 <li><a href="./info1.html"target="_blank"><i class="fa-solid fa-location-dot"></i>maps</a></li>
+                 <button class="btn-nav" type="button" onclick="togglebtn()" id="btn"><span></span></button>
+              </ul>
+           </div>
+        </nav>
+     </section>
+     <script>
+      var btn = document.getElementById("btn");
+      var navbar= document.getElementById("navbar");
+      function togglebtn(){
+         btn.classList.toggle("active");
+         navbar.classList.toggle("on");
+      }
+      </script>
+        <div class="text-box">
+            <h1>Your car is orderd <span>,</span></h1>
+            <p>Thank you for using our website</p>
+            </div>
+</body>
+</html>

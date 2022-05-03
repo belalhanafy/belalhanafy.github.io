@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotels List</title>
+    <link rel="stylesheet" href="./css/master-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav id="navbar">
+            <a href="index.html" class="logo" target="_blank"><i class="fas fa-paper-plane"></i>travel</a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html" target="_blank"><i class="fa-solid fa-house"></i>Home</a></li>
+                    <li><a href="./hotels-list.html"><i class="fa-solid fa-bed"></i>Stays</a></li>
+                    <li><a href="./flight1.html"><i class="fa-solid fa-plane"></i>Flights</a></li>
+                    <li><a href="./CarRentals1.html"><i class="fa-solid fa-car"></i>Car rentals</a></li>
+                    <li><a href="./Restaurant1.html"><i class="fa-solid fa-utensils"></i>Food</a></li>
+                    <li><a href="./activty1.html"><i class="fa-solid fa-person-swimming"></i>activities</a></li>
+                    <li><a href="index - about.html" target="_blank"><i class="fa-solid fa-people-group"></i>About</a></li>
+                    <li><a href="./info1.html"target="_blank"><i class="fa-solid fa-location-dot"></i>maps</a></li>
+                    <button class="btn-nav" type="button" onclick="togglebtn()" id="btn"><span></span></button>
+                </ul>
+            </div>
+        </nav>
+        <span class="up">UP</span>
+    </section>
+    <section class="hotels-list">
+        <div class="hotels-banner">
+            <h1 class="main-title">
+                Luxory Hotels
+            </h1>
+        </div>
+        <div class="main-container">
+            <div class="hotels-list--row">
+                <div class="hotels-list--box">
+                    <div class="hotel-photo">
+                        <img src="./images/room-img1.jpg" alt="Hotel Photo">
+                    </div>
+                    <div class="hotel-details">
+                        <h3 class="hotel-name">
+                            Novotel Sharm El Sheikh
+                        </h3>
+                        <ul class="hotel-stars">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <p class="hotel-description">
+                            Five stars luxory hotel with 6 swimming pools and artificial lagoon
+                        </p>
+                        <p class="hotel-price">
+                            $195 <span>/ Per Day</span>
+                        </p>
+                        <a class="hotel-booking-btn" href="./hotel-booking.html">
+                            Book Now
+                        </a>
+                    </div>
+                </div>
+                <div class="hotels-list--box">
+                    <div class="hotel-photo">
+                        <img src="./images/room-img2.jpg" alt="">
+                    </div>
+                    <div class="hotel-details">
+                        <h3 class="hotel-name">
+                            Sheraton Sharm Resort
+                        </h3>
+                        <ul class="hotel-stars">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <p class="hotel-description">
+                            Five stars hotel with huge aquapark and artificial waves
+                        </p>
+                        <p class="hotel-price">
+                            $120 <span>/ Per Day</span>
+                        </p>
+                        <a class="hotel-booking-btn" href="hotel-booking.html">
+                            Book Now
+                        </a>
+                    </div>
+                </div>
+                <div class="hotels-list--box">
+                    <div class="hotel-photo">
+                        <img src="./images/room-img3.jpg" alt="">
+                    </div>
+                    <div class="hotel-details">
+                        <h3 class="hotel-name">
+                            Jaz Fanara Resort
+                        </h3>
+                        <ul class="hotel-stars">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <p class="hotel-description">
+                            A Five star Hotel with classical mode and very suitable for honeymoon
+                        </p>
+                        <p class="hotel-price">
+                            $189 <span>/ Per Day</span>
+                        </p>
+                        <a class="hotel-booking-btn" href="hotel-booking.html">
+                            Book Now
+                        </a>
+                    </div>
+                </div>
+                <div class="hotels-list--box">
+                    <div class="hotel-photo">
+                        <img src="./images/room-img4.jpg" alt="">
+                    </div>
+                    <div class="hotel-details">
+                        <h3 class="hotel-name">
+                            Stella De Mare Resort
+                        </h3>
+                        <ul class="hotel-stars">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <p class="hotel-description">
+                            Huge hotel with lagoon swimming pools & amazing Animation team
+                        </p>
+                        <p class="hotel-price">
+                            $170 <span>/ Per Day</span>
+                        </p>
+                        <a class="hotel-booking-btn" href="hotel-booking.html">
+                            Book Now
+                        </a>
+                    </div>
+                </div>
+                <div class="hotels-list--box">
+                    <div class="hotel-photo">
+                        <img src="./images/room-img5.jpg" alt="">
+                    </div>
+                    <div class="hotel-details">
+                        <h3 class="hotel-name">
+                            Rixos Resort & Spa
+                        </h3>
+                        <ul class="hotel-stars">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <p class="hotel-description">
+                            Very classy hotel with very fancy swimming pools ,Sandy beaches & very fine resturants.
+                        </p>
+                        <p class="hotel-price">
+                            $200 <span>/ Per Day</span>
+                        </p>
+                        <a class="hotel-booking-btn" href="hotel-booking.html">
+                            Book Now
+                        </a>
+                    </div>
+                </div>
+                <div class="hotels-list--box">
+                    <div class="hotel-photo">
+                        <img src="./images/room-img6.jpg" alt="">
+                    </div>
+                    <div class="hotel-details">
+                        <h3 class="hotel-name">
+                            Charmilion Gardens Aquapark
+                        </h3>
+                        <ul class="hotel-stars">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+
+                        </ul>
+                        <p class="hotel-description">
+                            Large Hotel with the biggest aquapark in Sharm Elsheikh city
+                        </p>
+                        <p class="hotel-price">
+                            $140 <span>/ Per Day</span>
+                        </p>
+                        <a class="hotel-booking-btn" href="hotel-booking.html">
+                            Book Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="inner-footer">
+           <div class="sociallinks">
+              <ul>
+                 <li class="social-items"><a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                 <li class="social-items"><a href="https://messenger.com"target="_blank"><i class="fa-brands fa-facebook-messenger"></i></a></li>
+                 <li class="social-items"><a href="https://instagram.com"target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                 <li class="social-items"><a href="https://twitter.com"target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                 <li class="social-items"><a href="https://linkedin.com"target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+              </ul>
+           </div>
+           <div class="quick-links">
+              <ul>
+                 <li><a href="index.html" target="_blank">Home</a></li>
+                 <li><a href=""></i>Stays</a></li>
+                 <li><a href="">Flights</a></li>
+                 <li><a href="">Car rentals</a></li>
+                 <li><a href="">Food</a></li>
+                <li><a href="">activities</a></li>
+                 <li><a href="index - about.html"target="_blank">About</a></li>
+              </ul>
+           </div>
+        </div>
+        <div class="outer-footer">
+           Copyright &copy;web coding pro.All right reserved
+        </div>
+     </footer>
+<script src="./main.js/main.js"></script>
+</body>
+</html>

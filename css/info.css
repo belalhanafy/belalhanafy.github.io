@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Cairo', sans-serif;
+}
+
+nav {
+    display: flex;
+    padding: 3px 3%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6093b782;
+}
+
+nav a {
+    color: white;
+}
+
+.logo {
+    font-size: 2.4rem;
+    /* color: white; */
+    font-weight: bold;
+}
+
+i {
+    color: #00b0ff;
+    padding: 0.5rem;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul {
+    list-style: none;
+    /* padding: 8px 12px; */
+    position: relative;
+}
+
+.nav-links ul li {
+    display: inline-block;
+    margin: 0px 15px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+.text-box {
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 25px;
+}
+
+span {
+    color: #00b0ff;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 26px;
+    font-size: 18px;
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 50px;
+}
+
+.btn:hover {
+    background-color: #00b0ff;
+    color: black;
+}
+
+.up {
+    position: fixed;
+    bottom: 12px;
+    right: -35px;
+    background-color: #00b0ff;
+    color: rgb(48, 28, 28);
+    font-weight: bold;
+    font-size: 15px;
+    padding: 3px 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.up.show {
+    right: 17px;
+}
+
+input#show {
+    display: none;
+}
+
+
+div {
+    padding: 20px;
+}
+
+h1 {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 60px;
+    font-style: italic !important;
+}
+
+.qwqw {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 60px;
+    font-style: italic;
+    color: azure;
+}
+
+.OP {
+    background-color: #eee;
+    background-image: url(../images/wp4518696.jpg) !important;
+    margin: 0;
+    background-size: cover !important;
+
+}
+
+#htt {
+    background-color: #eee;
+    margin: 0;
+    height: 2500px;
+    background-image: url(../images/1552727413_88102.jpg);
+    background-size: cover;
+}
+.btn-nav{
+    background-color: white;
+    height: 28px;
+    width: 60px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .btn-nav span{
+    display: block;
+    background-color: #999;
+    height: 26PX;
+    width: 26PX;
+    border-radius: 50%;
+    margin-left: 2px;
+    transition: 0.5s;
+  }
+  .active{
+    background: green;
+  }
+  .active span{
+    background-color: white;
+    margin-left: 31px;
+    margin-bottom: 1px;
+    
+  }
+  .on{
+    background-color: red !important;
+  }
+
+div pre {
+    color: black;
+    font-size: 22px;
+    text-align: center;
+    line-height: 1.6;
+    white-space: normal;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+div h2 {
+    color: rgb(226, 7, 7);
+    text-align: center;
+    font-size: 40px;
+}
+
+pre img {
+    background-position: center;
+    border-radius: 50%;
+    filter: drop-shadow(4px 4px 7px black);
+}
+
+pre img:hover {
+    filter: drop-shadow(0);
+}
+
+.ww {
+    position: absolute;
+    right: 70px;
+    top: 198px;
+}
+
+.mm {
+    padding: 20px;
+    position: absolute;
+}
+
+.oo {
+    position: absolute;
+    right: 70px;
+    top: 750px;
+}
+
+.uu {
+    position: absolute;
+    right: 70px;
+    top: 1282px;
+}
+
+.tt {
+    position: absolute;
+    right: 70px;
+    top: 1820px;
+
+}
+
+.ii {
+    position: absolute;
+    top: 1280px;
+}
+
+.yy {
+    position: absolute;
+    top: 1820px;
+}
+
+div iframe {
+    box-shadow: 20px 20px 30px 15px black;
+}
+
+.top {
+    text-decoration: none;
+    position: absolute;
+    right: 540px;
+    /* top: 6970px; */
+    background-color: #adbe13;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 4px;
+}
+.btn-nav{
+    background-color: white;
+    height: 28px;
+    width: 60px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .btn-nav span{
+    display: block;
+    background-color: #999;
+    height: 26PX;
+    width: 26PX;
+    border-radius: 50%;
+    margin-left: 2px;
+    transition: 0.5s;
+  }
+  .active{
+    background: green;
+  }
+  .active span{
+    background-color: white;
+    margin-left: 31px;
+    margin-bottom: 1px;
+    
+  }
+  .on{
+    background-color: red !important;
+  }
+/*info footer*/
+
+.footer ul {
+    list-style: none;
+}
+
+.inner-footer {
+    margin-top: 156px;
+    background-color: #272727;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: -17px;
+}
+
+.sociallinks {
+    display: flex;
+    justify-content: center
+}
+
+.sociallinks ul {
+    display: flex;
+}
+
+.social-items a {
+    padding: 10px 20px;
+    font-size: 35px;
+}
+
+.quick-links {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.quick-links ul {
+    display: flex;
+}
+
+.quick-links a {
+    padding: 0px 30px;
+    color: white;
+}
+
+.outer-footer {
+    padding: 5pxpx;
+    text-align: center;
+    color: white;
+    background-color: #3f3f3f;
+    font-size: 18px;
+    margin: -17px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+/* map footer*/
+
+.foot ul {
+    list-style: none;
+}
+
+.in-footer {
+    margin-top: 1646px;
+    background-color: #272727;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: -17px;
+}
+
+.links {
+    display: flex;
+    justify-content: center
+}
+
+.links ul {
+    display: flex;
+}
+
+.s-items a {
+    padding: 10px 20px;
+    font-size: 35px;
+}
+
+.q-links {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.q-links ul {
+    display: flex;
+}
+
+.q-links a {
+    padding: 0px 30px;
+    color: white;
+}
+
+.out-footer {
+    padding: 5pxpx;
+    text-align: center;
+    color: white;
+    background-color: #3f3f3f;
+    font-size: 18px;
+    margin-bottom: -24px;
+    margin-left: -20px;
+    margin-right: -20px;
+}

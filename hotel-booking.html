@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="./css/master-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav id="navbar">
+            <a href="index.html" class="logo" target="_blank"><i class="fas fa-paper-plane"></i>travel</a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html" target="_blank"><i class="fa-solid fa-house"></i>Home</a></li>
+                    <li><a href="./hotels-list.html"><i class="fa-solid fa-bed"></i>Stays</a></li>
+                    <li><a href="./flight1.html"><i class="fa-solid fa-plane"></i>Flights</a></li>
+                    <li><a href="./CarRentals1.html"><i class="fa-solid fa-car"></i>Car rentals</a></li>
+                    <li><a href="./Restaurant1.html"><i class="fa-solid fa-utensils"></i>Food</a></li>
+                    <li><a href="./activty1.html"><i class="fa-solid fa-person-swimming"></i>activities</a></li>
+                    <li><a href="index - about.html" target="_blank"><i class="fa-solid fa-people-group"></i>About</a></li>
+                    <li><a href="./info1.html"target="_blank"><i class="fa-solid fa-location-dot"></i>maps</a></li>
+                    <button class="btn-nav" type="button" onclick="togglebtn()" id="btn"><span></span></button>
+                </ul>
+            </div>
+        </nav>
+        <span class="up">UP</span>
+    </section>
+    <section class="hotels-list">
+        <div class="hotels-banner" style="background-image: url('./images/hotel.jpg');">
+            <div class="title-wrapper">
+                <h1 class="main-title">
+                    Hotel Booking
+                </h1>
+                <a href="./hotels-list.html" class="hotel-booking-btn">Hotels List</a>
+            </div>
+        </div>
+        <div class="main-container">
+            <div class="hote-details-box">
+
+                <form method="get" class="booking-form">
+                    <div class="main-form-group">
+                        <label for="dateFrom">Date From</label>
+                        <input type="date" id="dateFrom" name="dateFrom" required>
+                    </div>
+                    <div class="main-form-group">
+                        <label for="dateTo">Date To</label>
+                        <input type="date" id="dateTo" name="dateTo" required>
+                    </div>
+                    <div class="main-form-group">
+                        <label for="adultNumbers">Adults Numbers</label>
+                        <input type="number" id="adultNumbers" name="adultNumbers" required>
+                    </div>
+                    <div class="main-form-group">
+                        <label for="childrensNumber">Childrens Numbers</label>
+                        <input type="number" id="childrensNumber" name="childrensNumber" required>
+                    </div>
+                    <button class="hotel-booking-btn" type="submit">
+                        Book Now
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- <script>
+        var btn = document.getElementById("btn");
+      var navbar= document.getElementById("navbar");
+      function togglebtn(){
+         btn.classList.toggle("active");
+         navbar.classList.toggle("on");
+      }
+    </script> -->
+    <script src="./main.js/main.js"></script>
+</body>
+</html>
