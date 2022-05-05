@@ -6,27 +6,6 @@
         <link rel="stylesheet"href="css/flight2.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
          <title>MyBooking</title>
-
-   <!-- Java codes-->
-    <script>let span =document.querySelector(".up"); 
-        window.onscroll=function(){
-            
-            if(this.scrollY>=600){
-                span.classList.add("show");
-            }
-            else{
-                span.classList.remove("show");
-            }
-        };
-        span.onclick=function(){
-            window.scrollTo({
-                top:0,
-                behavior:"smooth",
-            });
-        }</script>   
-   
-   
-
 </head>
 
 <body>
@@ -43,6 +22,7 @@
                 <li><a href="./Restaurant1.html"><i class="fa-solid fa-utensils"></i>Food</a></li>
                 <li><a href="./activty1.html"><i class="fa-solid fa-person-swimming"></i>activities</a></li>
                 <li><a href="index - about.html"target="_blank"><i class="fa-solid fa-people-group"></i>About</a></li>
+                <button class="btn-nav" type="button" onclick="togglebtn()" id="btn"><span></span></button>
              </ul>
            </div>
          </nav>
@@ -99,6 +79,6 @@
     </form>
      
     <h3>Have a nice trip!</h3>
-     
+     <script src="./main.js/main.js"></script>
 </body>
 </html>
