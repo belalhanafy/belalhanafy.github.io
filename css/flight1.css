@@ -194,6 +194,45 @@ h2{
 .on{
   background-color: #272727 ;
 }
+.footer ul{
+  list-style: none;
+ }
+ .inner-footer{
+   margin-top: 70px;
+   background-color: #272727;
+ }
+ .sociallinks{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 30px;
+ }
+ .sociallinks ul{
+   display: flex;
+ }
+ .social-items a{
+   padding: 10px 20px;
+   font-size: 35px;
+ }
+ .quick-links{
+   display: flex;
+   justify-content: center;
+   padding-bottom:30px ;
+ }
+ .quick-links ul{
+   display: flex;
+ }
+ .quick-links a{
+   padding: 0px 30px;
+   color: white;
+ }
+ .outer-footer{
+   padding: 5pxpx;
+   text-align: center;
+   color: white;
+   background-color: #3f3f3f;
+   font-size: 18px;
+ }
+
 
 
 
