@@ -36,3 +36,6 @@ var btn = document.getElementById("btn");
 //     function closepopup(){
 //         popup.classList.remove("open-popup");
 //     }
+function openpopup(){
+    alert("Thank you!Your details has been scccessfully submitted.")
+}
