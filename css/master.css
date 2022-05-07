@@ -9,7 +9,7 @@ body{
   font-family: 'Cairo', sans-serif;
 }
 .header{
-  min-height: 100vh;
+  min-height: 625px;
   width: 100%;
   background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../images/banner1.jpg");
   background-position: center;
@@ -66,6 +66,7 @@ nav a:hover{
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
+  /* transform: translate(6%,65%); */
   text-align: center;
   margin-top: 25px;
 }
@@ -81,8 +82,6 @@ span {
 }
 .btn{
   display: inline-block;
-  text-decoration: none;
-  color: white;
   border: 1px solid white;
   padding: 12px 26px;
   font-size: 18px;
@@ -101,7 +100,7 @@ span {
   bottom: 12px;
   right: -35px;
   background-color: #00b0ff;
-  color: rgb(48, 28, 28);
+  color: black;
   font-weight: bold;
   font-size: 15px;
   padding: 3px 8px;
@@ -112,9 +111,8 @@ span {
 .up.show{
   right: 17px;
 }
-input#show {
-  display: none;
-}
+
+
 .container{
   display: none;
   position: absolute;
@@ -172,10 +170,15 @@ form .data .in{
 .data div {
     margin-bottom: 33px;
 }
-
-#show:checked ~ .container{
+#show:checked + .container{
   display: block;
 }
+input#show {
+  display: none;
+}
+
+
+
 .btn-nav{
   background-color: white;
   height: 28px;
@@ -202,11 +205,13 @@ form .data .in{
   background-color: white;
   margin-left: 31px;
   margin-bottom: 1px;
-  
 }
 .on{
   background-color: #272727 ;
 }
+
+
+
 .footer ul{
   list-style: none;
  }
@@ -238,7 +243,7 @@ form .data .in{
    color: white;
  }
  .outer-footer{
-   padding: 5pxpx;
+   padding: 5px;
    text-align: center;
    color: white;
    background-color: #3f3f3f;

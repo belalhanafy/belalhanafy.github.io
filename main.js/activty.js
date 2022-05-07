@@ -6,7 +6,7 @@ var actvt = document.getElementById("actvty")
 
 
 function fun() {
-    alert("OH! " + actvt.value + " that's a wonderful choise .. you want to book " + tecets.value + " teckets for " + actvt.value + " and the date is " + dats.value + " are you sure to submit ?")
+    alert("OH! " + actvt.value + " that's a wonderful choise .. you want to book " + tecets.value + " teckets for " + actvt.value + " and the date is " + dats.value )
 
 
 }

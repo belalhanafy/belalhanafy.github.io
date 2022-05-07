@@ -1,4 +1,4 @@
-let span =document.querySelector(".up");
+var span =document.querySelector(".up");
 window.onscroll=function(){
     // console.log(this.scrollY);
     if(this.scrollY>=600){
@@ -14,6 +14,8 @@ span.onclick=function(){
         behavior:"smooth",
     });
 }
+
+
 var btn = document.getElementById("btn");
       var navbar= document.getElementById("navbar");
       function togglebtn(){
